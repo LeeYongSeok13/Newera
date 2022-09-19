@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Newera/static/css/main.60f87b16.css",
+    "main.js": "/Newera/static/js/main.564dbda9.js",
+    "static/media/MainVisual01.jpg": "/Newera/static/media/MainVisual01.825dedb452dda215eb48.jpg",
+    "static/media/MainVisual04.jpg": "/Newera/static/media/MainVisual04.0785354b15aab3ea901a.jpg",
+    "static/media/MainVisual05.jpg": "/Newera/static/media/MainVisual05.abbbdc32ae9920d3a065.jpg",
+    "static/media/MainVisual02.jpg": "/Newera/static/media/MainVisual02.c582ba03aa81b36aa725.jpg",
+    "static/media/MainVisual03.jpg": "/Newera/static/media/MainVisual03.b2c5cc4392f3276a679a.jpg",
+    "index.html": "/Newera/index.html",
+    "main.60f87b16.css.map": "/Newera/static/css/main.60f87b16.css.map",
+    "main.564dbda9.js.map": "/Newera/static/js/main.564dbda9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60f87b16.css",
+    "static/js/main.564dbda9.js"
+  ]
+}
