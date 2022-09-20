@@ -12,6 +12,10 @@
     text-align: center;
 }
 
+.Header {
+    border-bottom: 1px solid #ddd;
+}
+
 .Header .container {
     line-height: 100px;
     justify-content: space-between;
@@ -26,13 +30,13 @@
     gap: 50px;
 }
 
-.Header .container .main_menu li {
+.Header .container .main_menu>li {
     position: relative;
     font-size: 20px;
     font-weight: 700;
 }
 
-.Header .container .main_menu li::after {
+.Header .container .main_menu>li::after {
     position: absolute;
     content: "";
     display: block;
@@ -43,6 +47,63 @@
     background: #000;
     opacity: 0;
     visibility: hidden;
+}
+
+.Header .container .main_menu>li .sub_menu {
+    position: absolute;
+    display: flex;
+    gap: 100px;
+    line-height: 50px;
+    top: 101px;
+    left: -218px;
+    width: 1200px;
+    background: #fff;
+    padding: 0 20px;
+    border: 1px solid #ddd;
+    border-top: none;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.Header .container .main_menu>li .sub_menu::after {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 50%;
+    left: 180px;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 80%;
+    background: #000;
+}
+
+.Header .container .main_menu>li:hover .sub_menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.Header .container .main_menu>li .sub_menu .sub_main li {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.Header .container .main_menu>li .sub_menu .sub_content {
+    display: flex;
+    gap: 100px;
+}
+
+.Header .container .main_menu>li .sub_menu .sub_content li {
+    width: 100px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.Header .container .main_menu>li .sub_menu .sub_content>li>ul>li {
+    width: 100px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
 }
 
 .Header .container .main_menu li:hover::after {
@@ -56,13 +117,14 @@
 
 .Header .container .login_menu ul {
     display: flex;
+    gap: 20px;
 }
 
 .Header .container .login_menu ul li {
     font-size: 13px;
 }
 
-.MainVisual {
+.Header .container .lo .MainVisual {
     padding: 0 0 100px 0;
 }
 
@@ -131,4 +193,31 @@
 .Viewall .container {
     display: flex;
     gap: 30px;
+}
+
+.Viewall .container figure {
+    position: relative;
+    cursor: pointer;
+}
+
+.Viewall .container figure img {
+    width: 100%;
+    filter: brightness(0.5);
+    transition: 0.5s;
+}
+
+.Viewall .container figure:hover img {
+    filter: brightness(0.8);
+}
+
+.Viewall .container figure .figure_inner {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.Viewall .container figure .figure_inner strong {
+    display: block;
+    color: #fff;
+    line-height: 1.414;
 }

@@ -1,32 +1,49 @@
-const VEIWMENU = [
-    { id: 1, title: "모자", content: "HEADWEAR" },
-    { id: 1, title: "의류", content: "APPAREL" },
-    { id: 1, title: "액세서리", content: "ACCESSORIES" },
-    { id: 1, title: "키즈", content: "KIDS" },
-    { id: 1, title: "골프", content: "GOLF" }
-]
-
 const Viewall = () => {
     return (
         <section className="Viewall">
             <div className="container">
                 <figure>
-                    <img src="/images/Viewall_Headwear.jpg"></img>
+                    <img src={process.env.PUBLIC_URL + "/images/Viewall_headwear.jpg"} alt="/"></img>
+                    <div className="figure_inner">
+                        <strong>모자
+                            <br />HEADWEAR
+                        </strong>
+                    </div>
                 </figure>
                 <figure>
-                    <img src="/images/Viewall_Apparel.jpg"></img>
+                    <img src={process.env.PUBLIC_URL + "/images/Viewall_Apparel.jpg"} alt="/"></img>
+                    <div className="figure_inner">
+                        <strong>의류
+                            <br />APPAREL
+                        </strong>
+                    </div>
                 </figure>
                 <figure>
-                    <img src="/images/Viewall_Accessories.jpg"></img>
+                    <img src={process.env.PUBLIC_URL + "/images/Viewall_Accessories.jpg"} alt="/"></img>
+                    <div className="figure_inner">
+                        <strong>액세서리
+                            <br />ACCESSORIES
+                        </strong>
+                    </div>
                 </figure>
                 <figure>
-                    <img src="/images/Viewall_Kids.jpg"></img>
+                    <img src={process.env.PUBLIC_URL + "/images/Viewall_Kids.jpg"} alt="/"></img>
+                    <div className="figure_inner">
+                        <strong>키즈
+                            <br />KIDS
+                        </strong>
+                    </div>
                 </figure>
                 <figure>
-                    <img src="/images/Viewall_Golf.jpg"></img>
+                    <img src={process.env.PUBLIC_URL + "/images/Viewall_Golf.jpg"} alt="/"></img>
+                    <div className="figure_inner">
+                        <strong>골프
+                            <br />GOLF
+                        </strong>
+                    </div>
                 </figure>
             </div>
-        </section>
+        </section >
     )
 }
-export default Viewall;
+export default Viewall
