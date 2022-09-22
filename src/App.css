@@ -5,14 +5,23 @@
 }
 
 .TopBanner {
+    position: sticky;
+    top: 0;
+    left: 0;
     font-size: 13px;
     line-height: 25px;
     background: #000;
     color: #fff;
+    z-index: 999;
     text-align: center;
 }
 
 .Header {
+    position: sticky;
+    top: 25px;
+    left: 0;
+    z-index: 999;
+    background: #fff;
     border-bottom: 1px solid #ddd;
 }
 
@@ -50,12 +59,12 @@
 }
 
 .Header .container .main_menu>li .sub_menu {
-    position: absolute;
+    position: fixed;
     display: flex;
     gap: 100px;
     line-height: 50px;
-    top: 101px;
-    left: -218px;
+    top: 126px;
+    left: 351px;
     width: 1200px;
     background: #fff;
     padding: 0 20px;
@@ -73,9 +82,9 @@
     top: 50%;
     left: 180px;
     transform: translateY(-50%);
-    width: 3px;
+    width: 1px;
     height: 80%;
-    background: #000;
+    background: #ddd;
 }
 
 .Header .container .main_menu>li:hover .sub_menu {
@@ -94,6 +103,7 @@
 }
 
 .Header .container .main_menu>li .sub_menu .sub_content li {
+    position: relative;
     width: 100px;
     font-size: 15px;
     font-weight: 700;
@@ -111,6 +121,17 @@
     visibility: visible;
 }
 
+.Header .container .main_menu li .sub_menu .sub_content>li::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    top: 38px;
+    left: 0;
+    background: #000;
+}
+
 .Header .container .login_menu {
     display: block;
 }
@@ -126,6 +147,10 @@
 
 .Header .container .lo .MainVisual {
     padding: 0 0 100px 0;
+}
+
+.MainVisual {
+    position: relative;
 }
 
 .MainVisual .MainSlider figure {
@@ -186,8 +211,65 @@
     color: #fff;
 }
 
+.MainVisual .slideArrow button {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    color: #bbb;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.MainVisual .slideArrow button:nth-child(1) {
+    margin: 0 0 0 -850px;
+}
+
+.MainVisual .slideArrow button:nth-child(2) {
+    margin: 0 0 0 850px;
+}
+
+.Headwear {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.Headwear figure {
+    margin: 0 0 50px 0;
+}
+
+.Headwear h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.Headwear p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+
+.Headwear a {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 20px 40px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.Headwear a:hover {
+    background: #000;
+    color: #fff;
+}
+
 .Viewall {
     padding: 100px 0;
+    background: #ddd;
 }
 
 .Viewall .container {
@@ -220,4 +302,109 @@
     display: block;
     color: #fff;
     line-height: 1.414;
+}
+
+.Instagram figure {
+    height: 602px;
+}
+
+.Footertop {
+    padding: 100px;
+    background: #000;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.Footertop .container .footer_nav ul {
+    display: flex;
+    gap: 100px;
+}
+
+.Footertop .container .footer_nav ul li {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.Footertop .container .footer_nav ul li>ul {
+    display: block;
+    width: 130px;
+    margin: 10px 0 0 0;
+}
+
+.Footertop .container .footer_nav ul li>ul>li {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.Footertop .container .footer_nav ul li>.flex_ul {
+    display: flex;
+    gap: 10px;
+}
+
+.Footertop .container .footer_nav ul li>.flex_sns {
+    display: flex;
+    gap: 10px;
+}
+
+.Footertop .container .footer_nav ul li>.flex_sns i {
+    font-size: 30px;
+}
+
+.Footertop span {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 3px 5px;
+}
+
+.Footerbottom {
+    padding: 50px 0;
+    background: #000;
+    color: #fff;
+}
+
+.Footerbottom .container {
+    justify-content: space-between;
+}
+
+
+.Footerbottom .container ul {
+    display: flex;
+    gap: 10px;
+    margin: 0 0 10px 0;
+}
+
+.Footerbottom .container ul li {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.Footerbottom .container p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.414;
+}
+
+.Bottombanner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0;
+    display: block;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.Bottombanner.on {
+    opacity: 1;
+    visibility: visible;
+}
+
+.Bottombanner i {
+    cursor: pointer;
 }

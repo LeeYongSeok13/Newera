@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 
@@ -9,15 +10,21 @@ const SLIDE = [
     { id: 5, title: "MIXED PATTERN COLLECTION", content: "패치워크 형태의 원단으로 만들어진 믹스트 패턴 언스트럭쳐 볼캡 컬렉션", sub: "컬렉션 바로가기", link: "/" },
 ]
 
-const settings = {
-    arrows: false,
-    autoplay: true,
-    autoplaySpeed: 3000,
-}
 const MainVisual = () => {
+    const [IDX, setIDX] = useState();
+    useEffect(() => {
+        setIDX(0)
+    }, []);
+    const mainSlide = useRef(null);
+    const settings = {
+        arrows: false,
+        autoplay: true,
+        afterChange: index => setIDX(index),
+        autoplaySpeed: 3000,
+    }
     return (
         <section className="MainVisual">
-            <Slider {...settings}>
+            <Slider {...settings} ref={mainSlide}>
                 {
                     SLIDE.map((slide, idx) => {
                         return (
@@ -33,6 +40,10 @@ const MainVisual = () => {
                     })
                 }
             </Slider>
+            <div className="slideArrow">
+                <button onClick={() => mainSlide.current.slickPrev()}><i className='xi-angle-left'></i></button>
+                <button onClick={() => mainSlide.current.slickNext()}><i className='xi-angle-right'></i></button>
+            </div>
         </section>
     )
 }
