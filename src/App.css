@@ -232,6 +232,109 @@
     margin: 0 0 0 850px;
 }
 
+.Goods {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.Goods h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 50px 0;
+}
+
+.Goods .GoodsSlider {
+    margin: 0 0 50px 0;
+}
+
+.Goods .GoodsSlider figure {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 0 10px 0;
+}
+
+.Goods .GoodsSlider .goods01 {
+    background-image: url('../public/images/goods01.jpg');
+}
+
+
+.Goods .GoodsSlider .goods02 {
+    background-image: url('../public/images/goods02.jpg');
+}
+
+.Goods .GoodsSlider .goods03 {
+    background-image: url('../public/images/goods03.jpg');
+}
+
+.Goods .GoodsSlider .goods04 {
+    background-image: url('../public/images/goods04.jpg');
+}
+
+.Goods .GoodsSlider .goods05 {
+    background-image: url('../public/images/goods05.jpg');
+}
+
+.Goods .GoodsSlider .goods06 {
+    background-image: url('../public/images/goods06.jpg');
+}
+
+.Goods .GoodsSlider .goods07 {
+    background-image: url('../public/images/goods07.jpg');
+}
+
+.Goods .GoodsSlider .goods08 {
+    background-image: url('../public/images/goods08.jpg');
+}
+
+.Goods .GoodsSlider .goods09 {
+    background-image: url('../public/images/goods09.jpg');
+}
+
+.Goods .GoodsSlider .goods010 {
+    background-image: url('../public/images/goods010.jpg');
+}
+
+.Goods .GoodsSlider .goods011 {
+    background-image: url('../public/images/goods011.jpg');
+}
+
+.Goods .GoodsSlider .goods012 {
+    background-image: url('../public/images/goods012.jpg');
+}
+
+.Goods .GoodsSlider h2 {
+    font-size: 13px;
+    font-weight: 500;
+    width: 200px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0 0 5px 0;
+}
+
+.Goods .GoodsSlider p {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.Goods a {
+    display: inline-block;
+    padding: 20px 40px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.Goods a:hover {
+    background: #000;
+    color: #fff;
+}
+
 .Headwear {
     padding: 100px 0;
     text-align: center;
@@ -250,6 +353,7 @@
 .Headwear p {
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.414;
     margin: 0 0 20px 0;
 }
 
@@ -267,9 +371,44 @@
     color: #fff;
 }
 
+.Pinchhitter {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.Pinchhitter figure {
+    margin: 0 0 50px 0;
+}
+
+.Pinchhitter h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.Pinchhitter p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.414;
+    margin: 0 0 20px 0;
+}
+
+.Pinchhitter a {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 20px 40px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.Pinchhitter a:hover {
+    background: #000;
+    color: #fff;
+}
+
 .Viewall {
     padding: 100px 0;
-    background: #ddd;
 }
 
 .Viewall .container {
@@ -353,6 +492,7 @@
 
 .Footertop span {
     display: inline-block;
+    font-weight: 700;
     border: 1px solid #fff;
     padding: 3px 5px;
 }
