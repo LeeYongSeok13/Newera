@@ -44,7 +44,7 @@ const Viewall = () => {
                 </figure>
                 <figure>
                     <a href="/">
-                        <img src={process.env.PUBLIC_URL + "/images/Viewall_Golf.jpg"} alt="/"></img>
+                        <img src={process.env.PUBLIC_URL + "/images/Viewall_headwear.jpg"} alt="/"></img>
                         <div className="figure_inner">
                             <strong>골프
                                 <br />GOLF

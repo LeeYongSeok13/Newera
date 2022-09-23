@@ -2,7 +2,7 @@ const Pinchhitter = () => {
     return (
         <section className="Headwear">
             <figure>
-                <img src={process.env.PUBLIC_URL + '/images/MLB_Pinchhitter.jpg'}></img>
+                <img src={process.env.PUBLIC_URL + '/images/MLB_authentic.jpg'}></img>
             </figure>
             <h2>9FORTY MLB PINCH HITTER</h2>
             <p>MLB 30개 구단의 어센틱 홈 디자인을
