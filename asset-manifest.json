@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Newera/static/css/main.9d00d32f.css",
+    "main.css": "/Newera/static/css/main.0e5e2ef7.css",
     "main.js": "/Newera/static/js/main.48015933.js",
     "static/media/MainVisual01.jpg": "/Newera/static/media/MainVisual01.825dedb452dda215eb48.jpg",
     "static/media/MainVisual04.jpg": "/Newera/static/media/MainVisual04.0785354b15aab3ea901a.jpg",
@@ -20,11 +20,11 @@
     "static/media/goods012.jpg": "/Newera/static/media/goods012.fb3b7048cda6d201c427.jpg",
     "static/media/goods011.jpg": "/Newera/static/media/goods011.737d66f2efc8f56297f2.jpg",
     "index.html": "/Newera/index.html",
-    "main.9d00d32f.css.map": "/Newera/static/css/main.9d00d32f.css.map",
+    "main.0e5e2ef7.css.map": "/Newera/static/css/main.0e5e2ef7.css.map",
     "main.48015933.js.map": "/Newera/static/js/main.48015933.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d00d32f.css",
+    "static/css/main.0e5e2ef7.css",
     "static/js/main.48015933.js"
   ]
 }
