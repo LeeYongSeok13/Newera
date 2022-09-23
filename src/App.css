@@ -138,11 +138,15 @@
 
 .Header .container .login_menu ul {
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 
 .Header .container .login_menu ul li {
     font-size: 13px;
+}
+
+.Header .container .login_menu ul li:hover {
+    color: #f00;
 }
 
 .Header .container .lo .MainVisual {
