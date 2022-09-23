@@ -1,18 +1,30 @@
 {
   "files": {
-    "main.css": "/Newera/static/css/main.223d920d.css",
-    "main.js": "/Newera/static/js/main.54f2d400.js",
+    "main.css": "/Newera/static/css/main.9d00d32f.css",
+    "main.js": "/Newera/static/js/main.48015933.js",
     "static/media/MainVisual01.jpg": "/Newera/static/media/MainVisual01.825dedb452dda215eb48.jpg",
     "static/media/MainVisual04.jpg": "/Newera/static/media/MainVisual04.0785354b15aab3ea901a.jpg",
     "static/media/MainVisual05.jpg": "/Newera/static/media/MainVisual05.abbbdc32ae9920d3a065.jpg",
     "static/media/MainVisual02.jpg": "/Newera/static/media/MainVisual02.c582ba03aa81b36aa725.jpg",
     "static/media/MainVisual03.jpg": "/Newera/static/media/MainVisual03.b2c5cc4392f3276a679a.jpg",
+    "static/media/goods03.jpg": "/Newera/static/media/goods03.ee7623206e3992f1c875.jpg",
+    "static/media/goods01.jpg": "/Newera/static/media/goods01.c4db939c8ca13e13ddb9.jpg",
+    "static/media/goods02.jpg": "/Newera/static/media/goods02.4f855c8ff3e8b84a25db.jpg",
+    "static/media/goods010.jpg": "/Newera/static/media/goods010.e7d27b0bd84d5aefdc65.jpg",
+    "static/media/goods08.jpg": "/Newera/static/media/goods08.ebee96223cc337efcbf8.jpg",
+    "static/media/goods05.jpg": "/Newera/static/media/goods05.0a911a8f05b5231222b1.jpg",
+    "static/media/goods06.jpg": "/Newera/static/media/goods06.f0da7b1f5cb4323d537f.jpg",
+    "static/media/goods04.jpg": "/Newera/static/media/goods04.816de7e7107dc1d11170.jpg",
+    "static/media/goods07.jpg": "/Newera/static/media/goods07.1e4bdf48e9a2789e07a1.jpg",
+    "static/media/goods09.jpg": "/Newera/static/media/goods09.e657c3ced3ca8994ee46.jpg",
+    "static/media/goods012.jpg": "/Newera/static/media/goods012.fb3b7048cda6d201c427.jpg",
+    "static/media/goods011.jpg": "/Newera/static/media/goods011.737d66f2efc8f56297f2.jpg",
     "index.html": "/Newera/index.html",
-    "main.223d920d.css.map": "/Newera/static/css/main.223d920d.css.map",
-    "main.54f2d400.js.map": "/Newera/static/js/main.54f2d400.js.map"
+    "main.9d00d32f.css.map": "/Newera/static/css/main.9d00d32f.css.map",
+    "main.48015933.js.map": "/Newera/static/js/main.48015933.js.map"
   },
   "entrypoints": [
-    "static/css/main.223d920d.css",
-    "static/js/main.54f2d400.js"
+    "static/css/main.9d00d32f.css",
+    "static/js/main.48015933.js"
   ]
 }
